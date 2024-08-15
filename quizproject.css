@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #333;
+  color: #fff;
+  margin: 0;
+}
+
+#quiz-container {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 1px 0px 10px 1px yellow;
+}
+
+#question {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.answer-button {
+  display: block;
+  margin: 5px 0;
+  padding: 10px;
+  width: 100%;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.answer-button:hover {
+  background-color: #1808fa;
+}
+
+#next-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ff9800;
+  color: white;
+}
+
+#timer {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff0000;
+  margin-top: 10px;
+}
+
+#score {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+#lifelines {
+  margin-top: 20px;
+}
+
+#lifelines button {
+  padding: 10px 15px;
+  font-size: 14px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ffc107;
+  color: black;
+  transition: background-color 0.3s;
+}
+
+#lifelines button:hover {
+  background-color: #ffb300;
+}
+
+#lifelines button:disabled {
+  background-color: #888;
+  cursor: not-allowed;
+}
